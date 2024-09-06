@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: azure;
+
+}
+
+.header__logo {
+height: 1cm;
+weight: 1cm;
+padding: 0 15px;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 0.9;
+
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+height: 75px;
+
+background-color: #e43071;
+margin: 0;
+}
+
+.header__list {
+display: flex;
+gap: 30px;
+}
+
+.header__nav {
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(255, 255, 255);
+    color: #e43071;
+
+    height: 40px;
+    width: 150px;
+
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.welcome {
+    padding: 500px;
+
+    background-image: url("./images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome__subtitle {
+font-size: 120px;
+text-align: center;
+color: rgb(255, 255, 255);
+margin: 0;
+padding: 0;
+}
+
+.btn__welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #e43071;
+    color: #ffffff;
+
+    height: 60px;
+    width: 250px;
+
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 0 auto;
+}
+
+
+.meet {
+    padding: 500px;
+}
+
+
+.meet_subtitle {
+    font-size: 60px;
+    text-align: right;
+    color: #e43071;
+    margin: 0 auto;
+}
+.meet_text {
+    font-size: 20px;
+    text-align: right;
+    color: #000000;
+    margin: 0 auto;
+}
+.meet_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffffff;
+    color: #e43071;
+
+    height: 60px;
+    width: 250px;
+
+    font-weight: 500;
+    border-radius: 40px;
+
+    position: absolute;
+    right: 2px
+}
+
+
+.become {
+    padding: 500px;
+
+    background-image: url("./images/sportgirl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.become__subtitle {
+    font-size: 120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.become__title {
+    color: rgb(255, 255, 255);
+margin: 1px;
+text-align: center;
+font-size: 25px;
+}
+
+.btn__become {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #e43071;
+    color: #ffffff;
+
+    height: 60px;
+    width: 250px;
+
+    font-weight: 500;
+    border-radius: 40px;
+    margin: 0 auto;
+}
